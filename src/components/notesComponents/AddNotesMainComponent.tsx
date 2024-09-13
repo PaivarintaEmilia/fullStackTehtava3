@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
+// Tyylittely
+import "./notesComponents.css";
 
 // Ei propseja vaan tyypit komponentille
 interface AddNotesMainTypes {

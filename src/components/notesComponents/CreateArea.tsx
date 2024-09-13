@@ -49,7 +49,7 @@ const CreateArea: React.FC<CreateAreaProps> = ({ title, content, onAdd = () => {
 
     // Palautetaan form, jossa on input-kenttä titlelle, textArea contentille ja submit-painike Add. 
     return (
-        <div>
+        <div className="create-area-container">
             <form onSubmit={submitNote} className="create-note">
                 <input
                     name="title"
