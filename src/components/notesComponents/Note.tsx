@@ -16,6 +16,8 @@ const Note: React.FC<NoteProps> = ({id, title, content, handleClick = () => {}})
     handleClick(id);
   }
 
+  // Palautetaan note-komponentti, jossa esitetään käyttäjän tallentamat notet
+  // Delete-buttonin onClick-toiminto kutsuu funktiota, jossa handleClick-funktiossa viedään tietyn noten id AddNotesMainComponent-komponentin puoleen, jossa poisto tapahtuu
   return (
     <div className="note">
       <h1>{title}</h1>
