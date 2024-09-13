@@ -1,4 +1,5 @@
 import React from "react";
+import DeleteIcon from "@mui/icons-material/Delete"; // https://mui.com/material-ui/material-icons/ -> Button
 
 
 interface NoteProps {
@@ -22,7 +23,7 @@ const Note: React.FC<NoteProps> = ({id, title, content, handleClick = () => {}})
     <div className="note">
       <h1>{title}</h1>
       <p>{content}</p>
-      <button onClick={handleClickDeletion}>DELETE</button>
+      <button onClick={handleClickDeletion}><DeleteIcon></DeleteIcon></button>
     </div>
   );
 }

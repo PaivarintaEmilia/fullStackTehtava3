@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import AddIcon from "@mui/icons-material/Add"; // https://mui.com/material-ui/material-icons/ --> Button
+import { Fab } from "@mui/material"; // https://m2.material.io/components/buttons-floating-action-button  --> Button
+
 
 // props
 interface CreateAreaProps {
@@ -64,7 +67,7 @@ const CreateArea: React.FC<CreateAreaProps> = ({ title, content, onAdd = () => {
                     placeholder="Take a note..."
                     rows={3}
                 />
-                <button type="submit">Add</button>
+                <Fab type="submit"><AddIcon /></Fab>
             </form>
         </div>
     );
