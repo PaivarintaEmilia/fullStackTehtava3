@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AddIcon from "@mui/icons-material/Add"; // https://mui.com/material-ui/material-icons/ --> Button
 import { Fab } from "@mui/material"; // https://m2.material.io/components/buttons-floating-action-button  --> Button
-import { Zoom } from "@mui/material"; // tehtävän kohtaan https://mui.com/material-ui/api/zoom/ --> Button 
+import { Zoom } from "@mui/material"; // https://mui.com/material-ui/api/zoom/ --> Button 
 
 // props
 interface CreateAreaProps {
