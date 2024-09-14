@@ -30,7 +30,7 @@ To get a local copy of the project up and running, follow these steps:
     cd <project-directory>
     ```
 
-3. Install the necessary dependencies.
+3. Install the necessary dependencies. All the libraries needed are found in the package.json 
 
 
     ```bash
@@ -42,7 +42,7 @@ To get a local copy of the project up and running, follow these steps:
 To start the application on your local machine, use the following command:
 
 ```bash
-npm start
+npm run dev
 ```
 
 ### Building the Application
@@ -91,7 +91,9 @@ The following libraries are used in this project:
 ## Additional Information
 
 **Styling:** The application uses CSS for styling, divided into styles.css and notesComponents.css files.
+
 **State Management:** The application uses React's useState hook for managing the state of notes.
+
 **Icons:** Material-UI icons are used for add and delete button functionality to provide a better user experience.
 
 ## .gitignore
